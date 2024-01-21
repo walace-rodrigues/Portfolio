@@ -780,7 +780,7 @@ h3.my-profession {
     }
 }
 
-@media (max-width:767px) {
+@media (max-width:767px) {.about .about-content .personal-info .info-item,
     .contact .form .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -792,4 +792,5 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
+    
 }
