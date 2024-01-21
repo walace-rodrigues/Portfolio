@@ -259,9 +259,14 @@ ul {
     padding: 5px 15px;
 }
 
-.aside .nav li a.active {
+.aside .nav li a:hover {
     color: var(--skin-color);
 }
+
+/*.aside .nav li a.active {
+    color: var(--skin-color);
+}
+*/
 
 .aside .nav li a i {
     margin-right: 15px;
@@ -683,11 +688,16 @@ h3.my-profession {
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p {
+.contact .contact-info-item p,
+.contact .contact-info-item p a {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400;
+}
+
+.contact .contact-info-item p a:hover {
+    color: var(--skin-color);
 }
 
 .contact .form {
