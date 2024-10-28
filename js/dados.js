@@ -2,7 +2,7 @@ const dados = [
   {
     img:'imagens/projetos/projeto-menu.png',
     alt:'Projeto Menu Online',
-    url:'https://walacemenu.000webhostapp.com'
+    url:'https://walace-rodrigues.github.io/projeto-menu/#'
   },
   {
     img:'imagens/projetos/projeto-audiobook.png',
